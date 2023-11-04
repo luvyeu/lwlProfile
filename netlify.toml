@@ -1,0 +1,5 @@
+[build]
+  base = "."
+  publish = "_site/"  # Replace this with your Jekyll output directory
+  functions = "netlify/functions/"  # Replace this with your functions directory if applicable
+  command = "bundle exec jekyll build"  # Use Bundler to execute Jekyll build
